@@ -32,10 +32,8 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+               <img src="../img/pro1.png" alt="" style="width: 50px; height: auto;">
+                <div class="sidebar-brand-text mx-3">Care Admin Site </div>
             </a>
 
             <!-- Divider -->
