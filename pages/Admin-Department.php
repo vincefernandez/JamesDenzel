@@ -218,7 +218,7 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
                         <tr>
-                            <th><input type="checkbox" id="checkAll">All</th>
+                            <!-- <th><input type="checkbox" id="checkAll">All</th> -->
 
                             <th style="text-align: center;">Account ID</th>
                             <th style="text-align: center;">Admin ID</th>
@@ -230,7 +230,7 @@
 
                     <tbody>
                         <tr>
-                            <td><input type="checkbox" id="checkItem"></td>
+                            <!-- <td><input type="checkbox" id="checkItem"></td> -->
                             <td>12345</td>
                             <td>12345</td>
                             <td>User</td>
@@ -257,7 +257,7 @@
 
                         </tr>
                         <tr>
-                            <td><input type="checkbox" id="checkItem"></td>
+                            <!-- <td><input type="checkbox" id="checkItem"></td> -->
                             <td>12345</td>
                             <td>12345</td>
                             <td>User</td>
@@ -283,7 +283,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><input type="checkbox" id="checkItem"></td>
+                            <!-- <td><input type="checkbox" id="checkItem"></td> -->
                             <td>12345</td>
                             <td>12345</td>
                             <td>User</td>
@@ -316,7 +316,7 @@
 
                       
                         <tr>
-                            <td><input type="checkbox" id="checkItem"></td>
+                            <!-- <td><input type="checkbox" id="checkItem"></td> -->
                             <td>12345</td>
                             <td>12345</td>
                             <td>User</td>

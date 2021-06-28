@@ -1,4 +1,4 @@
-<?php include_once('../header.php'); ?>
+<?php include_once('headerLGU.php'); ?>
 
 <!-- Begin Page Content -->
 <div class="container-fluid">
@@ -20,12 +20,11 @@
                     <div class="p-2">
                         <img src="../img/pro1.png" alt="Avatar" style="height: 150px; width:auto;">
                     </div>
-                   
                     <div class="p-2">
                         <br>
                         <h4>Juan Dela Cruz</h4>
                         <h6>System Admin</h6>
-                        <input type='file' id='fileid' hidden />
+                        <input id='fileid' type='file'><br>
                         <input id='buttonid' type='button' value='Change Photo' />
 
                     </div>
@@ -170,23 +169,7 @@
 </div>
 
 <!-- Bootstrap core JavaScript-->
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Core plugin JavaScript-->
-<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Custom scripts for all pages-->
-<script src="../js/sb-admin-2.min.js"></script>
-
-<!-- Page level plugins -->
-<script src="../vendor/chart.js/Chart.min.js"></script>
-
-<!-- Page level custom scripts -->
-<script src="../js/demo/chart-area-demo.js"></script>
-<script src="../js/demo/chart-pie-demo.js"></script>
-<script src="js.js"></script>
-
+<?php include('footerLGU.php');?>
 </body>
 
 </html>
