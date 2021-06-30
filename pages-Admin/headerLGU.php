@@ -54,22 +54,35 @@
                     <span>Accounts Management</span></a>
             </li>
 
-            <!-- Main Admin Account Informations -->
+          
 
             <!-- Department Admins -->
             <li class="nav-item active">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Department" aria-expanded="true" aria-controls="collapseTry">
-                    <i class="fas fa-fw fa-user-alt"></i>
-                    <h6>Department Management</h6>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Department" aria-expanded="true">
+                    <i class="fas fa-fw fa-user-alt"> </i><em>Department Management</em>
+                   
+                    <!-- <em>Department Management</em> -->
                 </a>
-                <div id="Department" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="Department" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Department</h6>
                         <a class="collapse-item" href="Dept_Function.php">Function</a>
                         <a class="collapse-item" href="Dept_Services.php">Services</a>
                         <a class="collapse-item" href="Dept_Importance.php">Importance</a>
                         <a class="collapse-item" href="Dept_Documents.php">Documents</a>
-                        <a class="collapse-item" href="#">Reports</a>
+                      
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Reports" aria-expanded="true">
+                    <i class="fas fa-fw fa-user-alt"></i>Reports
+                   
+                </a>
+                <div id="Reports" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Reports</h6>
+                     
                         <a class="collapse-item" href="Dept_Complaints.php">Complaints</a>
                         <a class="collapse-item" href="Dept_Concerns.php">Concerns</a>
                     </div>

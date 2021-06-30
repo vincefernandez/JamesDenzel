@@ -1,4 +1,4 @@
-<?php include("../header.php"); ?>
+<?php include("header.php"); ?>
 <!-- Begin Page Content -->
 
 <div class="container-fluid">
@@ -443,7 +443,7 @@
     </div>
 </div>
 
-<?php include('../footer.php'); ?>
+<?php include('footer.php'); ?>
 </body>
 
 </html>

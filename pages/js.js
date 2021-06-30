@@ -43,12 +43,5 @@ $('.collapsible').collapsible();
 $('select').material_select();
 
 
-$('#example').tooltip(options);
 const sideNav = document.querySelector('.sidenav');
 M.Sidenav.init(sideNav, {});
-// Upload Image to 1 button
-document.getElementById('buttonid').addEventListener('click', openDialog);
-
-function openDialog() {
-    document.getElementById('fileid').click();
-}

@@ -9,8 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Title!</title>
-
+    <title>CARE | Main Form</title>
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
@@ -20,7 +19,10 @@
         <link rel="shortcut icon" href="../img/faviconlogo.jpg" />
     <!-- Custom styles for this template-->
     <link href="../css/sb-admin-2.min.css" rel="stylesheet">
-
+    <script
+  src="https://code.jquery.com/jquery-1.10.1.js"
+  integrity="sha256-663tSdtipgBgyqJXfypOwf9ocmvECGG8Zdl3q+tk+n0="
+  crossorigin="anonymous"></script>
 </head>
 
 <body id="page-top">
@@ -29,12 +31,12 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Admin-dashboard.php">
                <img src="../img/CARELogo.png" alt="" style="width: 50px; height: auto;">
-                <div class="sidebar-brand-text mx-3">Care Admin Site </div>
+                <div class="sidebar-brand-text mx-3" style="font-size:26px">C A R E</div>
             </a>
 
             <!-- Divider -->
@@ -51,29 +53,45 @@
             <hr class="sidebar-divider">
 
             <!-- Heading -->
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Accounts Management</span></a>
+
+            <li class="nav-item active">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Department" aria-expanded="true" aria-controls="collapseTry">
+                    <i class="fas fa-fw fa-user-alt"></i>
+                  <em>Accounts Management</em>
+                </a>
+                <div id="Department" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Department</h6>
+                        <a class="collapse-item" href="Administrator.php">Administrator</a>
+                        <a class="collapse-item" href="LGU-OfficeStaff.php">LGU-Office Staff</a>
+                        <a class="collapse-item" href="Residents.php.php">Residents</a>
+                      
+                    </div>
+                </div>
             </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#">
+                    
+                    <span>Accounts Management</span></a>
+            </li> -->
 
             <!-- Main Admin Account Informations -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="MainAdminAccountInfo.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Main Admin Accounts Info</span></a>
-            </li>
+                    <span>Administrator</span></a>
+            </li> -->
         <!-- Department Admins -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="Admin-Department.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Department Admins</span></a>
-            </li>
-            <li class="nav-item">
+                    <span>LGU-Office Staff</span></a>
+            </li> -->
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="Residents.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Residents</span></a>
-            </li>
+            </li> -->
             <li class="nav-item">
                 <a class="nav-link" href="department.php">
                     <i class="fas fa-fw fa-table"></i>
@@ -135,7 +153,7 @@
                                             placeholder="Search for..." aria-label="Search"
                                             aria-describedby="basic-addon2">
                                         <div class="input-group-append">
-                                            <button class="btn btn-primary" type="button">
+                                            <button class="btn btn-success" type="button">
                                                 <i class="fas fa-search fa-sm"></i>
                                             </button>
                                         </div>
