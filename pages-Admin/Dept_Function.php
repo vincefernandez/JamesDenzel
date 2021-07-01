@@ -1,4 +1,6 @@
 <?php include('headerLGU.php'); ?>
+
+<title>CARE | Function</title>
 <div class="container-fluid">
 
     <div class="row">

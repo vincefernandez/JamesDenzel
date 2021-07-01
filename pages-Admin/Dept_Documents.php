@@ -1,5 +1,5 @@
 <?php include('headerLGU.php'); ?>
-
+<title>CARE | Documents</title>
 
 <div class="modal fade" id="AddDocu" tabindex="-1" role="dialog" aria-labelledby="AddDocu" aria-hidden="true">
     <div class="modal-dialog" role="document">

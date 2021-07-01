@@ -1,5 +1,5 @@
-<?php include_once('headerLGU.php'); ?>
-
+<?php include('headerLGU.php'); ?>
+<title>CARE | Main Account</title>
 <!-- Begin Page Content -->
 <div class="container-fluid">
 
@@ -10,36 +10,52 @@
     <div class="row">
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Basic Info</h1>
-            <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+            <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
         </div>
         <div class="col-lg-12 mb-4">
             <div class="card border-left-secondary shadow h-100 py-2">
-
+            <form id="form" action="Administrator.php" method="post" enctype="multipart/form-data">
                 <div class="d-flex">
                     <div class="p-2">
-                        <img src="../img/pro1.png" alt="Avatar" style="height: 150px; width:auto;">
+                    <img id="blah" src="../img/noimage_person.png" alt="your image" style="height: 150px; width:auto;" />
+                     
                     </div>
+
                     <div class="p-2">
                         <br>
                         <h4>Juan Dela Cruz</h4>
                         <h6>System Admin</h6>
-                        <input id='fileid' type='file'><br>
-                        <input id='buttonid' type='button' value='Change Photo' />
+                        <!-- actual upload which is hidden -->
+                        <form runat="server">
+  <input accept="image/*" type='file' id="imgInp" />
+ 
+</form>
+
+
+                       
+                        
+                        <!-- <input type="file" id="fileElem" multiple accept="multipart/form-data" style="display:none">
+                        <a href="#" id="fileSelect">Select some files</a>
+                        <div id="fileList">
+                            <p>No files selected!</p>
+                        </div> -->
+                        
 
                     </div>
                     <div class="ml-auto p-2">
-                        <button class="btn btn-primary">Save</button>
+                        <button class="btn btn-success">Save</button>
                     </div>
                 </div>
             </div>
+            </form>
         </div>
     </div>
 
     <div class="row">
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Contact Info</h1>
-            <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+            <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
         </div>
         <div class="col-lg-12 mb-4">
@@ -47,17 +63,17 @@
                 <div class="d-flex">
                     <div class="p-2">
 
-                        <label for="email">Email :</label><br>
-                        <label for="phone">Phone :</label>
+                        <label for="email" class="mb-4">Email :</label><br>
+                        <label for="phone" class="mb-4">Phone :</label>
                     </div>
                     <div class="p-2">
 
-                        <label name="emai">Juan Dela Cruz</label><br>
-                        <label name="phone">Juan Dela Cruz</label>
+                        <label name="emai" class="mb-4">Juan Dela Cruz</label><br>
+                        <label name="phone" class="mb-4">Juan Dela Cruz</label>
                     </div>
                     <div class="ml-auto p-2">
-                        <button class="btn btn-primary">Change</button><br>
-                        <button class="btn btn-primary">Change</button>
+                        <button class="btn btn-success mb-4">Change</button><br>
+                        <button class="btn btn-success  mb-4">Change</button>
                     </div>
                 </div>
             </div>
@@ -79,14 +95,14 @@
                 <div class="d-flex">
                     <div class="p-2">
 
-                       <input type="textbox" placeholder="Old Password" style="width: 600px">
-                       <input type="textbox" placeholder="Old Password" style="width: 600px">
-                        <input type="textbox" placeholder="Old Password" style="width: 600px">
+                        <input type="textbox" class="mb-4" placeholder="Old Password" style="width: 600px">
+                        <input type="textbox" class="mb-4" placeholder="New Password" style="width: 600px">
+                        <input type="textbox" class="mb-4" placeholder="Confrm New Password" style="width: 600px">
                     </div>
-                
+
                     <div class="ml-auto p-2"><br><br><br>
-                        <button class="btn btn-primary">Change</button>
-                     
+                        <button class="btn btn-success">Change</button>
+
                     </div>
                 </div>
             </div>
@@ -97,7 +113,7 @@
     <div class="row">
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Recovery Info</h1>
-            <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+            <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
         </div>
         <div class="col-lg-12 mb-4">
@@ -106,17 +122,17 @@
                     <div class="p-2">
 
                         <label for="Remail">Recovery Email :</label>
-                        
+
                     </div>
                     <div class="p-2">
 
                         <label name="Remai">JuanDelaCruz@gmail.com</label>
-                        
+
                     </div>
                     <div class="ml-auto p-2">
-                    
-                        <button class="btn btn-primary">Change</button>
-                       
+
+                        <button class="btn btn-success">Change</button>
+
                     </div>
                 </div>
             </div>
@@ -162,14 +178,15 @@
             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="login.html">Logout</a>
+                <a class="btn btn-success" href="../index.php">Logout</a>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Bootstrap core JavaScript-->
-<?php include('footerLGU.php');?>
+<?php include('footerLGU.php'); ?>
+
 </body>
 
 </html>

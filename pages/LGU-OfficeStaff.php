@@ -1,4 +1,5 @@
 <?php include("header.php"); ?>
+<title>CARE | LGU-Office Staff</title>
 <!-- Begin Page Content -->
 
 <div class="container-fluid">
@@ -34,7 +35,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary">Add</button>
+                    <button type="button" class="btn btn-success">Add</button>
                 </div>
             </div>
         </div>
@@ -111,7 +112,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-success">Save</button>
                 </div>
             </div>
         </div>
@@ -148,7 +149,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-success">Save</button>
                 </div>
             </div>
         </div>
@@ -162,11 +163,11 @@
 
         </div>
         <div class="p-2">
-            <button type="button" class="h6 mb-0 text-white-800 btn btn-primary">Refresh <i class="fas fa-sync-alt"></i></button>
+            <button type="button" class="h6 mb-0 text-white-800 btn btn-success">Refresh <i class="fas fa-sync-alt"></i></button>
         </div>
         <div class="p-2">
 
-            <button type="button" class="h6 mb-0 text-white-800 btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Add Accounts <i class="fas fa-plus"></i></button>
+            <button type="button" class="h6 mb-0 text-white-800 btn btn-success" data-toggle="modal" data-target="#exampleModalLong">Add Accounts <i class="fas fa-plus"></i></button>
         </div>
     </div>
     <!-- Page Heading -->
@@ -197,16 +198,16 @@
                 </div>
 
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 font-weight-bold text-primary"></h6>
+                    <h6 class="m-0 font-weight-bold text-success"></h6>
 
                     <!-- <div class="dropdown no-arrow">
                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <button class="btn btn-primary">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
+                            <button class="btn btn-success">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
                           
                         </a>
                         <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
                             <div class="dropdown-header">Update</div>
-                            <button type="button" class="h6 mb-0 text-white-800 btn btn-primary" data-toggle="modal" data-target="#ViewInfo">Add Accounts <i class="fas fa-plus"></i></button>
+                            <button type="button" class="h6 mb-0 text-white-800 btn btn-success" data-toggle="modal" data-target="#ViewInfo">Add Accounts <i class="fas fa-plus"></i></button>
                             <a class="dropdown-item" href="#">View Account Info</a>
                             <a class="dropdown-item" href="#">Edit Account Info</a>
                             <a class="dropdown-item" href="#">Change Password</a>
@@ -238,7 +239,7 @@
                             <!-- Actions Button -->
                                 <div class="dropdown no-arrow container" style="text-align:center">
                                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <button class="btn btn-primary">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
+                                        <button class="btn btn-success">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
                                         <!-- <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i> -->
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
@@ -265,7 +266,7 @@
                             <!-- Actions Button -->
                             <div class="dropdown no-arrow container" style="text-align:center">
                                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <button class="btn btn-primary">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
+                                        <button class="btn btn-success">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
                                         <!-- <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i> -->
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
@@ -291,7 +292,7 @@
                             <!-- Actions Button -->
                             <div class="dropdown no-arrow container" style="text-align:center">
                                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <button class="btn btn-primary">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
+                                        <button class="btn btn-success">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
                                         <!-- <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i> -->
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
@@ -324,7 +325,7 @@
                             <!-- Actions Button -->
                             <div class="dropdown no-arrow container" style="text-align:center">
                                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <button class="btn btn-primary">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
+                                        <button class="btn btn-success">Actions <i class="fa fa-exclamation-circle" aria-hidden="true"></i></button>
                                         <!-- <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i> -->
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
@@ -437,7 +438,7 @@
             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="login.html">Logout</a>
+                <a class="btn btn-success" href="../index.php">Logout</a>
             </div>
         </div>
     </div>

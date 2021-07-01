@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CARE | Main Form</title>
+    <!-- <title>CARE | Main Form</title> -->
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
@@ -64,7 +64,7 @@
                         <h6 class="collapse-header">Department</h6>
                         <a class="collapse-item" href="Administrator.php">Administrator</a>
                         <a class="collapse-item" href="LGU-OfficeStaff.php">LGU-Office Staff</a>
-                        <a class="collapse-item" href="Residents.php.php">Residents</a>
+                        <a class="collapse-item" href="Residents.php">Residents</a>
                       
                     </div>
                 </div>
@@ -92,12 +92,12 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>Residents</span></a>
             </li> -->
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="department.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Department</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="barangays.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Barangays</span></a>
@@ -126,10 +126,10 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                 <div class="text-center d-none d-md-inline">
-                        <a href="#"> <i class="fa fa-bars" id="sidebarToggle"></i></a>
+                        <a href="#"> <i class="fa fa-bars" style="color:green" id="sidebarToggle"></i></a>
                     </div>
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3" style="color:green">
                         <i class="fa fa-bars"></i>
                     </button>
 

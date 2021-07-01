@@ -1,5 +1,5 @@
 <?php include('headerLGU.php'); ?>
-
+<title>CARE | Services</title>
 <div class="d-flex">
     <div class="mr-auto p-2">
         <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">

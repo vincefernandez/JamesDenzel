@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    user-select: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    place-items: center;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+section {
+    width: 100%;
+    height: 650px;
+    background: url("img/cover.jpg");
+    background-size: cover;
+    position: absolute;
+    overflow: hide;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 167, 35, 0.8);
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background: #2fa733;
+}
+
+
+/*login form*/
+
+.container {
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 100px auto;
+}
+
+.wrapper {
+    width: 100%;
+    background: #fff;
+    border-radius: 0;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .title {
+    height: 70px;
+    background: #2FA734;
+    border-radius: 0;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form {
+    /*all form inside container*/
+    padding: 30px 25px 20px 25px;
+    height: 380px;
+}
+
+.wrapper form .row {
+    height: 45px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.wrapper form .row input {
+    height: 90%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1.5px solid #2FA734;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+form .row input:focus {
+    border-color: #2FA734;
+    box-shadow: inset 0px 0px 2px 2px rgba(47, 167, 52, 0.25);
+}
+
+form .row input::placeholder {
+    color: #999;
+    font-size: 15px;
+}
+
+span {
+    position: absolute;
+    right: 20px;
+    transform: translate(0, -50%);
+    top: 20px;
+    cursor: pointer;
+}
+
+.fa {
+    font-size: 20px;
+    color: #828b82;
+}
+
+.wrapper form .row i {
+    /*icon placement*/
+    position: absolute;
+    width: 45px;
+    margin-top: 25px;
+    height: 90%;
+    color: #fff;
+    font-size: 18px;
+    background: #2FA734;
+    border: 1px solid #2FA734;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="checkbox"],
+label {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+    display: inline-block;
+    width: auto;
+    color: #2FA734;
+    font-size: 15px;
+}
+
+.wrapper form .fp {
+    margin: 1px 0 20px 0;
+    text-align: center;
+}
+
+.wrapper form .fp a {
+    color: #2FA734;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.wrapper form .fp a:hover {
+    text-decoration: underline;
+}
+
+.wrapper form .button input {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #2FA734;
+    border: 1px solid #2FA734;
+    cursor: pointer;
+}
+
+form .button input:hover {
+    background: #00ff15;
+}
+
+script {
+    color: gray;
+}
+
+
+/* main form */
+
+
+/* bars button */
+
+.btn {
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: left 0.4s ease;
+}
+
+.btn.click {
+    left: 260px;
+}
+
+.btn span {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 40px;
+    left: 25%;
+    top: 45%;
+    text-align: center;
+}
+
+.btn.click span::before {
+    content: '\f00d';
+}
+
+
+/* side panel */
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    background: #272727;
+    transition: left 0.4s ease;
+}
+
+.sidebar.show {
+    left: 0px;
+}
+
+.sidebar .text {
+    color: white;
+    margin-left: 0px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #272727;
+    letter-spacing: 1px;
+}
+
+nav,
+ul {
+    background: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li {
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav ul li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+nav ul li a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+
+nav ul li.active a {
+    color: #2FA734;
+    background: #272727;
+    border-left-color: #2FA734;
+}
+
+nav ul ul {
+    position: static;
+    display: none;
+}
+
+nav ul .feat-show.show {
+    display: block;
+}
+
+nav ul ul li {
+    line-height: 42px;
+    border-bottom: none;
+}
+
+nav ul ul li a {
+    font-size: 17px;
+    color: #e6e6e6;
+    padding-left: 80px;
+}
+
+nav ul li.active ul li a {
+    color: #e6e6e6;
+    background: #1b1b1b;
+    border-left-color: transparent;
+}
+
+nav ul ul li a:hover {
+    color: #2fa733!important;
+    background: #1e1e1e!important;
+}
+
+nav ul li a span {
+    position: absolute;
+    top: 18px;
+    right: 3px;
+    transform: translate(-50%);
+    font-size: 20px;
+    transition: transform 0.4s;
+}
+
+nav ul li a span:hover {
+    transform: translate(-50%) rotate(-180deg);
+}
+
+
+/*topbar*/
+
+.main {
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background: #f5f5f5;
+    transition: 0.5%;
+}
+
+.main .topbar {
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    position: relative;
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.user img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,6 +1,6 @@
 <?php include_once('headerLGU.php'); ?>
 
-
+<title>CARE | Complaints</title>
 <div class="modal fade" id="Mark" tabindex="-1" role="dialog" aria-labelledby="Mark" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">

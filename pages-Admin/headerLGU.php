@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Title!</title>
+    <!-- <title>CARE | Main Form</title> -->
     <!-- Custom fonts for this template-->
     <link rel="shortcut icon" href="../img/faviconlogo.jpg" />
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -29,9 +29,9 @@
         <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion BackgroundColor" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="LGU_Dashboard.php">
                 <img src="../img/CARELogo.png" alt="" style="width: 50px; height: auto;">
-                <div class="sidebar-brand-text mx-3">Care Admin Site </div>
+                <div class="sidebar-brand-text mx-3" style="font-size:26px">C A R E</div>
             </a>
 
             <!-- Divider -->
@@ -48,10 +48,11 @@
             <hr class="sidebar-divider">
 
             <!-- Heading -->
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="LGU_Account.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Accounts Management</span></a>
+                    <em class="text-white">Accounts Management</em>
+                </a>
             </li>
 
           
