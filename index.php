@@ -60,8 +60,8 @@ if(isset($_POST['Admin'])){
                         </label>
                         <!--Login button-->
                         <div class="row button">
-                        <input type="submit" name="MainForm" value="Main Form" onclick="lsRememberMe()">
-                        <input type="submit" name="Admin" value="Administrator" onclick="lsRememberMe()">
+                        <input type="submit" name="MainForm" value="Administrator Website" onclick="lsRememberMe()">
+                        <input type="submit" name="Admin" value="Office Staff Website" onclick="lsRememberMe()">
 
                         </div>
                         <!-- <div class="fp"><a href="forgotpassword.html">Forgot password?</a></div> -->
