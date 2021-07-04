@@ -15,20 +15,28 @@ if(isset($_POST['Admin'])){
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> CARE | Login </title>
-    <link rel="shortcut icon" href="img/faviconlogo.jpg" />
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
-    
-</head>
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title> CARE | Login Form </title>
+    <link rel="shortcut icon" href="img/faviconlogo.jpg" />
+  
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+        <link rel="stylesheet" href="login.css">
+        <link rel="shortcut icon" href="../img/faviconlogo.jpg" />
+    <!-- Custom styles for this template-->
+    
+    <script
+  src="https://code.jquery.com/jquery-1.10.1.js"
+  integrity="sha256-663tSdtipgBgyqJXfypOwf9ocmvECGG8Zdl3q+tk+n0="
+  crossorigin="anonymous"></script>
+</head>
 <body>
     <section>
         <div class="overlay">
@@ -56,15 +64,17 @@ if(isset($_POST['Admin'])){
                         </div> 
                         <!--remember me-->
                         <label class="checkbox">
-                            <input type="checkbox" value="lsRememberMe" id="remember_me"> Remember me
+                            <input type="checkbox" value="lsRememberMe" id="remember_me"> Remember me<br>
+                         
                         </label>
+                       <div class="fp">  <a href="forgotpassword.php">Forgot Password</a></div>
                         <!--Login button-->
                         <div class="row button">
                         <input type="submit" name="MainForm" value="Administrator Website" onclick="lsRememberMe()">
                         <input type="submit" name="Admin" value="Office Staff Website" onclick="lsRememberMe()">
 
                         </div>
-                        <!-- <div class="fp"><a href="forgotpassword.html">Forgot password?</a></div> -->
+                      
 
                     </form>
                 </div>
